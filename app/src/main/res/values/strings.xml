@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Stock Hawk</string>
+
+    <string name="pref_stocks_initialized_key" translatable="false">initialized</string>
+
+    <string name="pref_stocks_key">stocks</string>
+
+    <string name="chart_no_data">No data</string>
+
+    <!-- Strings related to Widgets -->
+    <string name="title_widget_detail">Stowk Hawk Details</string>
+
+
+    <string name="pref_display_mode_title">Display Mode</string>
+    <string name="pref_display_mode_key">displayMode</string>
+    <string name="pref_display_mode_default">@string/pref_display_mode_percentage_key</string>
+
+    <string name="pref_display_mode_absolute_key">absolute</string>
+    <string name="pref_display_mode_percentage_key">percentage</string>
+
+    <string name="default_stocks_yahoo">YHOO</string>
+    <string name="default_stocks_apple">AAPL</string>
+    <string name="default_stocks_microsoft">MSFT</string>
+    <string name="default_stocks_facebook">FB</string>
+
+
+    <string name="action_change_units">@string/pref_display_mode_key</string>
+
+    <string name="plus_string">+</string>
+    <string name="plus_dollar_string">+$</string>
+    <string name="minus_string">-</string>
+    <string name="dollar_string">$</string>
+    <string name="percentage_string">%</string>
+
+
+    <string name="dialog_title">Add Stock</string>
+    <string name="dialog_hint">Symbol (e.g. GOOG)</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_add">Add</string>
+
+    <string name="error_stock_not_found">Symbol %s is invalid!</string>
+    <string name="error_no_network">No network connectivity! Will load stocks when the network is available.</string>
+    <string name="error_no_stocks">No stocks added! Hit the floating action button to add one.</string>
+    <string name="toast_stock_added_no_connectivity">Symbol %s added. Will refresh when network available.</string>
+    <string name="toast_no_connectivity">No connection. Will refresh when network available.</string>
+
+    <!--accessibility strings-->
+    <string name="percentage_menu_description">This is display mode, currently Dollar. Double tap to change it to Percentage.</string>
+    <string name="dollar_menu_description">This is display mode, currently Percentage. Double tap to change it to dollar.</string>
+    <string name="floating_button_description">This button will let you add a new stock to track.</string>
+
+    <!--widget_detail_list_layout-->
+    <string name="title_bar_text">Today\'s Market</string>
+    <string name="title_bar_description">Today\'s Market powered by Stock hawk.</string>
+</resources>
